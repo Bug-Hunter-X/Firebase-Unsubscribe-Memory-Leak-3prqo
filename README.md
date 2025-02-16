@@ -1,0 +1,1 @@
+This example demonstrates a common Firebase error: forgetting to unsubscribe from listeners.  The `onAuthStateChanged` listener is properly unsubscribed in the solution to prevent memory leaks.  Failure to unsubscribe can cause performance degradation and unexpected behavior in your application.
